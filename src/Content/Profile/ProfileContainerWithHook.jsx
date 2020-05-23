@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {memo, useEffect} from 'react';
 import Profile from "./Profile";
 import {getProfile, getProfileStatus} from "../../Redux/profile_selector";
 import {getAuthUserId} from "../../Redux/auth_selectors";
@@ -8,7 +8,7 @@ import {getProfileData, getStatus, updateStatus} from "../../Redux/profile_reduc
 import {WithAuthRedirect} from "../../hoc/withAuthRedirect";
 import {withRouter} from "react-router-dom";
 
-function ProfileContainerWithHook(props) {
+function ProfileContainerWithHook (props){
 
     console.log("render");
 
@@ -23,6 +23,7 @@ function ProfileContainerWithHook(props) {
     // };
 
     useEffect(() =>{
+
         let userId = userServ;
         if (!userId){
             userId = userAuth;
@@ -48,7 +49,7 @@ function ProfileContainerWithHook(props) {
 
 
 let mapStateToProps = (state) => {
-    console.log("mSTP");
+    console.log("mSTP profile");
     return({
         profile: getProfile(state),
         status: getProfileStatus(state),
@@ -59,5 +60,5 @@ let mapStateToProps = (state) => {
 export default compose(
     connect(mapStateToProps, {getStatus, updateStatus,getProfileData}),
     withRouter,
-    WithAuthRedirect
+    /*WithAuthRedirect*/
 )(ProfileContainerWithHook)

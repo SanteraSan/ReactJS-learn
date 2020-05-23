@@ -3,7 +3,7 @@ import Dialogs from "./Dialogs";
 import {WithAuthRedirect} from "../../hoc/withAuthRedirect";
 
 
-let AuthRedirectComponent = WithAuthRedirect(Dialogs)
+let AuthRedirectComponent = /*WithAuthRedirect*/(Dialogs)
 
 export default AuthRedirectComponent
 
