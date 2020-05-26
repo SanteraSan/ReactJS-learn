@@ -13,7 +13,7 @@ let Users = (props) => {
         pages.push(i);
     }
 
-
+    debugger;
     return (
 
         <div className={s.container}>
@@ -43,7 +43,7 @@ let Users = (props) => {
                     <div className={s.user_info}>
                         <div className={s.user_name_status}>
                             <div className={s.name}>{u.name}</div>
-                            <div className={s.status}>{"u.status"}</div>
+                            <div className={s.status}>{u.status}</div>
                         </div>
                         <div className={s.location}>
                             <span>{"u.location.Country"},</span><br/>

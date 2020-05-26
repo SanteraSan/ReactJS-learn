@@ -25,11 +25,17 @@ const usersReducer = (state = initialState, action) => {
         case FOLLOW:
             return {
                 ...state,
-                users:updateObjectInArray(state.users,"id",action.userId,{followed:true})};
+                users: state.users.map(u =>
+                    u.id === action.userId ? {...u, followed: true} : u)
+            };
+                /*users:updateObjectInArray(state.users,"id",action.userId,{followed:true})};*/
         case UNFOLLOW:
             return {
                 ...state,
-                users:updateObjectInArray(state.users,"id",action.userId,{followed:false})};
+                users: state.users.map(u =>
+                    u.id === action.userId ? {...u, followed: false} : u)
+            };
+                /*users:updateObjectInArray(state.users,"id",action.userId,{followed:false})};*/
         case SET_USERS: {
             return {...state, users: action.users};
         }
@@ -91,11 +97,13 @@ let followUnfollowFlow = async (dispatch,userId,apiMethod,actionCreator) =>{
 
 export const follow = (userId) => {
     return async (dispatch) => {
+        debugger;
         followUnfollowFlow(dispatch,userId,usersAPI.follow.bind(usersAPI),followSuccess);
     }
 };
 export const unfollow = (userId) => {
     return async (dispatch) => {
+        debugger;
         followUnfollowFlow(dispatch,userId,usersAPI.unfollow.bind(usersAPI),unfollowSuccess);
     }
 };
