@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ReactJS-learn/static/css/main.8b9e708a.chunk.css",
-    "main.js": "/ReactJS-learn/static/js/main.239a5ae2.chunk.js",
-    "main.js.map": "/ReactJS-learn/static/js/main.239a5ae2.chunk.js.map",
+    "main.css": "/ReactJS-learn/static/css/main.b84cd674.chunk.css",
+    "main.js": "/ReactJS-learn/static/js/main.2f283eb2.chunk.js",
+    "main.js.map": "/ReactJS-learn/static/js/main.2f283eb2.chunk.js.map",
     "runtime-main.js": "/ReactJS-learn/static/js/runtime-main.92958a67.js",
     "runtime-main.js.map": "/ReactJS-learn/static/js/runtime-main.92958a67.js.map",
-    "static/js/2.94e18991.chunk.js": "/ReactJS-learn/static/js/2.94e18991.chunk.js",
-    "static/js/2.94e18991.chunk.js.map": "/ReactJS-learn/static/js/2.94e18991.chunk.js.map",
+    "static/js/2.cf63a0e6.chunk.js": "/ReactJS-learn/static/js/2.cf63a0e6.chunk.js",
+    "static/js/2.cf63a0e6.chunk.js.map": "/ReactJS-learn/static/js/2.cf63a0e6.chunk.js.map",
     "index.html": "/ReactJS-learn/index.html",
-    "precache-manifest.80d67aa3b7c92c2dd3bb263b0cdcb5c0.js": "/ReactJS-learn/precache-manifest.80d67aa3b7c92c2dd3bb263b0cdcb5c0.js",
+    "precache-manifest.44a8bcc8b408771192116cec4f87acd3.js": "/ReactJS-learn/precache-manifest.44a8bcc8b408771192116cec4f87acd3.js",
     "service-worker.js": "/ReactJS-learn/service-worker.js",
-    "static/css/main.8b9e708a.chunk.css.map": "/ReactJS-learn/static/css/main.8b9e708a.chunk.css.map",
-    "static/js/2.94e18991.chunk.js.LICENSE.txt": "/ReactJS-learn/static/js/2.94e18991.chunk.js.LICENSE.txt",
+    "static/css/main.b84cd674.chunk.css.map": "/ReactJS-learn/static/css/main.b84cd674.chunk.css.map",
+    "static/js/2.cf63a0e6.chunk.js.LICENSE.txt": "/ReactJS-learn/static/js/2.cf63a0e6.chunk.js.LICENSE.txt",
     "static/media/Spinner-1s-200px.svg": "/ReactJS-learn/static/media/Spinner-1s-200px.9064981b.svg",
     "static/media/png-transparent-computer-icons-user-icon-design-help-portal-computer-orange-sphere.png": "/ReactJS-learn/static/media/png-transparent-computer-icons-user-icon-design-help-portal-computer-orange-sphere.7fc247f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92958a67.js",
-    "static/js/2.94e18991.chunk.js",
-    "static/css/main.8b9e708a.chunk.css",
-    "static/js/main.239a5ae2.chunk.js"
+    "static/js/2.cf63a0e6.chunk.js",
+    "static/css/main.b84cd674.chunk.css",
+    "static/js/main.2f283eb2.chunk.js"
   ]
 }
