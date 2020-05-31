@@ -17,7 +17,7 @@ class App extends Component {
         if (!this.props.initialize){
             return <Preloader/>
         }
-        return (<HashRouter basename={process.env.PUBLIC_URL}>
+        return (<HashRouter /*basename={process.env.PUBLIC_URL}*/>
             <div className={'app_wrapper'}>
                 <HeaderContainer/>
                 <Navigation/>

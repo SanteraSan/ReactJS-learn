@@ -2,15 +2,19 @@ body, html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 100%;
 }
+
 .app_wrapper{
     margin: 0 auto;
     max-width: 1200px;
+    height: 100%;
     display: grid;
     grid-template-columns: 2fr 10fr;
+    grid-template-rows: 1fr 8fr;
     grid-template-areas:
-        "header header header"
-        "nav prof prof";
+        "header header "
+        "nav prof ";
     grid-gap: 4px;
 
 }

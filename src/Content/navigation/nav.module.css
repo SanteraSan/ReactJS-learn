@@ -9,6 +9,7 @@
     background-color: #3f96ab;
     grid-area: nav;
     padding: 10px;
+
 }
 .imgLink img{
     height: 50px;
@@ -28,9 +29,7 @@
     text-decoration: none;
     color: indigo;
 }
-.avatar{
 
-}
 .friendsItems{
     display: flex;
     justify-content: space-between;

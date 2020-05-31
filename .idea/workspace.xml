@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Utils/Helpers/array_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Utils/Helpers/array_helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Utils/Validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Utils/Validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,19 +59,19 @@
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
-      <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Header" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile\posts" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Users" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Redux" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
+      <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +200,12 @@
       <workItem from="1590311811977" duration="2711000" />
       <workItem from="1590325402019" duration="2509000" />
       <workItem from="1590393957174" duration="591000" />
-      <workItem from="1590527111343" duration="661000" />
+      <workItem from="1590527111343" duration="1819000" />
+      <workItem from="1590563753780" duration="3936000" />
+      <workItem from="1590675081785" duration="603000" />
+      <workItem from="1590774592427" duration="2256000" />
+      <workItem from="1590839600153" duration="2599000" />
+      <workItem from="1590873126298" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -402,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590204569055</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HashRouter for github">
+      <created>1590527885842</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1590527885842</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +462,7 @@
     <MESSAGE value="preloader" />
     <MESSAGE value="--API" />
     <MESSAGE value="favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon" />
+    <MESSAGE value="HashRouter for github" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashRouter for github" />
   </component>
 </project>
