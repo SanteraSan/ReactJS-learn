@@ -1,5 +1,7 @@
 import {profileAPI, usersAPI} from "../api/api";
 
+
+
 const UPDATER_NEW_POST = "UPDATE-NEW-POST-TEXT";
 const ADD_POST = "ADD-POST";
 const SET_USERS_PROFILE = "SET_USERS_PROFILE";
@@ -22,7 +24,7 @@ let initialState = {
     ],
     textAreaValue: "some text",
     profile: null,
-    status: "1"
+    status: "Please Sign in https://social-network.samuraijs.com"
 
 };
 
@@ -80,8 +82,9 @@ export const getStatus = (userId) => {
 export const updateStatus = (status) => {
     return (dispatch) => {
         profileAPI.updateStatus(status).then(response => {
-            if (response.data.resultCode === 0){
-                dispatch(setStatus(status))};
+            if (response.data.resultCode === 0) {
+                dispatch(setStatus(status))
+            }
         })
     }
 };

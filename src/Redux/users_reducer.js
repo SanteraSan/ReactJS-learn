@@ -1,5 +1,5 @@
 import {usersAPI} from "../api/api";
-import {updateObjectInArray} from "../Content/Utils/Helpers/array_helper";
+
 
 const FOLLOW = "FOLLOW";
 const UNFOLLOW = "UNFOLLOW";

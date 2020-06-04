@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Content/Common/Paginator/Paginator.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Utils/Validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Utils/Validators/validators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/user_selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/user_selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,6 +205,7 @@
       <workItem from="1590774592427" duration="2256000" />
       <workItem from="1590839600153" duration="2599000" />
       <workItem from="1590873126298" duration="605000" />
+      <workItem from="1591252473178" duration="7962000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
