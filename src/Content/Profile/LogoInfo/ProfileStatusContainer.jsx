@@ -5,7 +5,7 @@ import ProfileStatusWithHook from "./ProfileStatusWithHook";
 
 
 function ProfileStatusContainer(props) {
-    return <ProfileStatusWithHook {...props}/>}
+    return <ProfileStatusWithHook status={props.status} updateStatus={props.updateStatus}/>}
 
 let mapStateToProps = (state) => ({
     status: state.profilePage.status

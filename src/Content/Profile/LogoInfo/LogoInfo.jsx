@@ -1,16 +1,18 @@
 import React from "react";
 import InfoProfile from "./info";
 import LogoProfile from "./logo";
+import s from "./info_logo.module.css"
 import ProfileStatusContainer from "./ProfileStatusContainer";
 
-
 const LogoInfo = (props) => {
-
+    // debugger;
     return (
         <div className={"info_logo"}>
-            <LogoProfile profile={props.profile}/><br/>
+            {props.profile &&
+            <h2 className={s.profileName}>{props.profile.fullName}</h2>}
+            <LogoProfile savePhoto={props.savePhoto} isOwner={props.isOwner} profile={props.profile}/><br/>
             <ProfileStatusContainer/>
-            <InfoProfile/>
+            <InfoProfile profile={props.profile}/>
         </div>);
 };
 

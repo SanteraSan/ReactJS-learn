@@ -1,11 +1,10 @@
-import React, {memo, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Profile from "./Profile";
 import {getProfile, getProfileStatus} from "../../Redux/profile_selector";
 import {getAuthUserId} from "../../Redux/auth_selectors";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import {getProfileData, getStatus, updateStatus} from "../../Redux/profile_reducer";
-import {WithAuthRedirect} from "../../hoc/withAuthRedirect";
+import {getProfileData, getStatus, savePhoto, updateStatus} from "../../Redux/profile_reducer";
 import {withRouter} from "react-router-dom";
 
 function ProfileContainerWithHook (props){
@@ -42,14 +41,16 @@ function ProfileContainerWithHook (props){
 
     return (
         <div>
-            <Profile {...props}/>
+            <Profile {...props}
+                     isOwner={!props.match.params.userId}
+                     savePhoto={props.savePhoto}/>
         </div>
     );
 }
 
 
 let mapStateToProps = (state) => {
-    console.log("mSTP profile");
+    // console.log("mSTP profile");
     return({
         profile: getProfile(state),
         status: getProfileStatus(state),
@@ -58,7 +59,7 @@ let mapStateToProps = (state) => {
 
 
 export default compose(
-    connect(mapStateToProps, {getStatus, updateStatus,getProfileData}),
+    connect(mapStateToProps, {getStatus, updateStatus,getProfileData, savePhoto}),
     withRouter,
     /*WithAuthRedirect*/
 )(ProfileContainerWithHook)

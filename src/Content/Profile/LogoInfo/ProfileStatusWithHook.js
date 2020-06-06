@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-const ProfileStatusWithHook = React.memo((props) => {
+const ProfileStatusWithHook = (props) => {
 
 
     // deactivateEditMode = () => {
@@ -35,6 +35,7 @@ const ProfileStatusWithHook = React.memo((props) => {
         setStatus(e.currentTarget.value
         );
     };
+
     return (
         <div>
             {!editMode &&
@@ -48,7 +49,7 @@ const ProfileStatusWithHook = React.memo((props) => {
             </div>}
         </div>
     )
-});
+};
 
 
 export default ProfileStatusWithHook;

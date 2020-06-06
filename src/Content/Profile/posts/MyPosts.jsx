@@ -37,7 +37,7 @@ let NewPostProfileForm = React.memo((props) => {
     const {handleSubmit} = props;
     return (
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className={s.some}>
                 <Field component={TextArea} name="profileAddPost" placeholder="Enter you message"
                        validate={[required, maxLength15]}
                 />
@@ -60,7 +60,7 @@ const MyPosts = (props) => {
 
     return <div className={s.myPosts}>
         <h3>My Posts</h3>
-        <NewPostProfileForm onSubmit={onAddPosts}/>
+        <NewPostProfileForm onSubmit={onAddPosts}/><br/>
         {postsElements}
     </div>
 };

@@ -1,9 +1,11 @@
 import React from "react";
 
-const InfoProfile = () =>
+const InfoProfile = (props) =>{
+    debugger
+    return (
     <div className="InfoProfile">
         <br/>
-        Some text-info
-    </div>
+        Some info
+    </div>)}
 ;
 export default InfoProfile
