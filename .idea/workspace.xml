@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/formControl.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +208,9 @@
       <workItem from="1591343502572" duration="9477000" />
       <workItem from="1591359452946" duration="287000" />
       <workItem from="1591361337512" duration="10534000" />
-      <workItem from="1591436815927" duration="3445000" />
+      <workItem from="1591436815927" duration="3592000" />
+      <workItem from="1591510000850" duration="1681000" />
+      <workItem from="1591689926916" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -437,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591267393916</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&quot;add photos&quot; for profile">
+      <created>1591441333107</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591441333107</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="before path" />
     <MESSAGE value="dev-working" />
     <MESSAGE value="array.map()" />
     <MESSAGE value="all Data to index.js" />
@@ -483,6 +481,7 @@
     <MESSAGE value="favicon" />
     <MESSAGE value="HashRouter for github" />
     <MESSAGE value="Paginator and Lib:&quot;classnames&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paginator and Lib:&quot;classnames&quot;" />
+    <MESSAGE value="&quot;add photos&quot; for profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add photos&quot; for profile" />
   </component>
 </project>

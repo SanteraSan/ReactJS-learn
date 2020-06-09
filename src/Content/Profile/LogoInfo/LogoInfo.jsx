@@ -10,9 +10,11 @@ const LogoInfo = (props) => {
         <div className={"info_logo"}>
             {props.profile &&
             <h2 className={s.profileName}>{props.profile.fullName}</h2>}
-            <LogoProfile savePhoto={props.savePhoto} isOwner={props.isOwner} profile={props.profile}/><br/>
-            <ProfileStatusContainer/>
+            <div className={s.logoInfoContainer}>
+            <LogoProfile savePhoto={props.savePhoto} isOwner={props.isOwner} profile={props.profile}/>
             <InfoProfile profile={props.profile}/>
+            </div>
+            <ProfileStatusContainer/>
         </div>);
 };
 

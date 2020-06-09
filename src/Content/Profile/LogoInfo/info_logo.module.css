@@ -1,5 +1,5 @@
 .imaga{
-    max-width: 200px;
+    max-width: 250px;
 }
 .VisibleInputImg{
     visibility: visible;
@@ -9,4 +9,14 @@
 }
 .profileName{
     margin-top: 0;
+}
+
+.logoInfoContainer{
+    display: flex;
+}
+.infoProfile{
+    padding-left: 5px;
+}
+.contacts{
+    padding-left: 10px;
 }

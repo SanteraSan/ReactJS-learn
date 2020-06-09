@@ -6,6 +6,7 @@ import {compose} from "redux";
 import {connect} from "react-redux";
 import {getProfileData, getStatus, savePhoto, updateStatus} from "../../Redux/profile_reducer";
 import {withRouter} from "react-router-dom";
+import s from './profile.module.css'
 
 function ProfileContainerWithHook (props){
 
@@ -40,7 +41,7 @@ function ProfileContainerWithHook (props){
 
 
     return (
-        <div>
+        <div className={s.profile}>
             <Profile {...props}
                      isOwner={!props.match.params.userId}
                      savePhoto={props.savePhoto}/>
