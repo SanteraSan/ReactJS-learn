@@ -9,6 +9,7 @@ import ProfileContainer from "./Profile/ProfileContainer";
 import Login from "./Login/login";
 import DialogsContainer from "./Dialogs/DialogsContainer";
 import ProfileContainerWithHook from "./Profile/ProfileContainerWithHook";
+import EditProfileInfoForm from "./Profile/LogoInfo/EditProfileInfoForm";
 
 
 const Content = () => {
@@ -18,7 +19,7 @@ const Content = () => {
             <Route path={"/profile/:userId?"} render={() => <ProfileContainerWithHook/>}/>
             <Route path={"/users"} render={() => <UsersContainer/>}/>
             <Route path={"/news"} render={() => <News/>}/>
-            <Route path={"/music"} render={() => <Music/>}/>
+            <Route path={"/music"} render={() => <EditProfileInfoForm/>}/>
             <Route path={"/login"} render={() => <Login/>}/>
             <Route path={"/settings"} render={() => <Settings/>}/>
         </div>)

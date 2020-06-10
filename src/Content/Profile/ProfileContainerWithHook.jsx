@@ -4,7 +4,7 @@ import {getProfile, getProfileStatus} from "../../Redux/profile_selector";
 import {getAuthUserId} from "../../Redux/auth_selectors";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import {getProfileData, getStatus, savePhoto, updateStatus} from "../../Redux/profile_reducer";
+import {getProfileData, getStatus, savePhoto, saveProfile, updateStatus} from "../../Redux/profile_reducer";
 import {withRouter} from "react-router-dom";
 import s from './profile.module.css'
 
@@ -44,7 +44,7 @@ function ProfileContainerWithHook (props){
         <div className={s.profile}>
             <Profile {...props}
                      isOwner={!props.match.params.userId}
-                     savePhoto={props.savePhoto}/>
+                     savePhoto={props.savePhoto} saveProfile={props.saveProfile}/>
         </div>
     );
 }
@@ -60,7 +60,7 @@ let mapStateToProps = (state) => {
 
 
 export default compose(
-    connect(mapStateToProps, {getStatus, updateStatus,getProfileData, savePhoto}),
+    connect(mapStateToProps, {getStatus, updateStatus,getProfileData, savePhoto, saveProfile}),
     withRouter,
     /*WithAuthRedirect*/
 )(ProfileContainerWithHook)

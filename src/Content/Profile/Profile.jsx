@@ -8,7 +8,7 @@ const Profile = (props) =>{
     return(<div className={style.prof}>
 
         <div className={style.LogoInfoPosts}>
-            <LogoInfo profile={props.profile} isOwner={props.isOwner} savePhoto={props.savePhoto}/>
+            <LogoInfo saveProfile={props.saveProfile} profile={props.profile} isOwner={props.isOwner} savePhoto={props.savePhoto}/>
             <MyPostsContainer/>
         </div>
     </div>)}
