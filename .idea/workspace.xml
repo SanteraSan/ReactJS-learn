@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/EditProfileInfoForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/EditProfileInfoForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/EditProfileInfoForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,8 +101,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
@@ -218,7 +223,9 @@
       <workItem from="1591780399640" duration="2405000" />
       <workItem from="1591785232895" duration="753000" />
       <workItem from="1591786191488" duration="153000" />
-      <workItem from="1591786381487" duration="13853000" />
+      <workItem from="1591786381487" duration="14649000" />
+      <workItem from="1591864014663" duration="5011000" />
+      <workItem from="1591882488432" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -451,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591696503098</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="profile edit form">
+      <created>1591802037692</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802037692</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="array.map()" />
     <MESSAGE value="all Data to index.js" />
     <MESSAGE value="all Data to state.js" />
     <MESSAGE value="icons for dialogs; FRIENDS" />
@@ -497,6 +510,7 @@
     <MESSAGE value="Paginator and Lib:&quot;classnames&quot;" />
     <MESSAGE value="&quot;add photos&quot; for profile" />
     <MESSAGE value="&quot;profile info&quot; from server" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;profile info&quot; from server" />
+    <MESSAGE value="profile edit form" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile edit form" />
   </component>
 </project>

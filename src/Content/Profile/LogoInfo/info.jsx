@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import s from './info_logo.module.css'
 import EditProfileInfoForm from "./EditProfileInfoForm";
 
@@ -14,7 +14,7 @@ const InfoProfile = (props) => {
     return (
         <div>
             {editMode
-                ? <EditProfileInfoForm profile={props.profile} onSubmit={onSubmit}/>
+                ? <EditProfileInfoForm initialValues={props.profile} goEditMode={()=>{setEditMode(false)}} profile={props.profile} onSubmit={onSubmit}/>
                 : <ProfileData goEditMode={()=>{setEditMode(true)}} profile={props.profile} isOwner={props.isOwner}/>}
         </div>
     )
@@ -27,6 +27,8 @@ const ProfileData = ({profile, isOwner, goEditMode}) => {
             {profile ? <div>
                 <b>FullName</b> : {profile.fullName} <br/>
                 <b>Looking for a job</b> : {profile.lookingForAJob ? "yes" : "no"}<br/>
+                <b>About me</b>: {profile.aboutMe}<br/>
+                <b>Professional skills</b>: {profile.lookingForAJobDescription}<br/>
                 <b>Contacts</b>: {Object.keys(profile.contacts).map(m => {
                 return <Contact key={m} contactTitle={m} contactValue={profile.contacts[m]}/>
             })}
