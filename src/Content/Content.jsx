@@ -2,10 +2,8 @@ import React from "react";
 import style from "./Style.module.css"
 import {Route} from "react-router-dom";
 import News from "./News/News";
-import Music from "./Music/Music";
 import Settings from "./Settings/Settings";
 import UsersContainer from "./Users/UsersContainer";
-import ProfileContainer from "./Profile/ProfileContainer";
 import Login from "./Login/login";
 import DialogsContainer from "./Dialogs/DialogsContainer";
 import ProfileContainerWithHook from "./Profile/ProfileContainerWithHook";

@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Login/login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/EditProfileInfoForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/EditProfileInfoForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -225,7 +229,10 @@
       <workItem from="1591786191488" duration="153000" />
       <workItem from="1591786381487" duration="14649000" />
       <workItem from="1591864014663" duration="5011000" />
-      <workItem from="1591882488432" duration="3523000" />
+      <workItem from="1591882488432" duration="5207000" />
+      <workItem from="1591909033299" duration="1200000" />
+      <workItem from="1591936349497" duration="5514000" />
+      <workItem from="1592232098911" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -465,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591802037692</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="some refactoring">
+      <created>1591887466033</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591887466033</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="all Data to index.js" />
     <MESSAGE value="all Data to state.js" />
     <MESSAGE value="icons for dialogs; FRIENDS" />
     <MESSAGE value="textarea" />
@@ -511,6 +524,7 @@
     <MESSAGE value="&quot;add photos&quot; for profile" />
     <MESSAGE value="&quot;profile info&quot; from server" />
     <MESSAGE value="profile edit form" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile edit form" />
+    <MESSAGE value="some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
   </component>
 </project>

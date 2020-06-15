@@ -7,14 +7,14 @@ import {login} from "../../Redux/auth_reducer";
 import {Redirect} from "react-router-dom";
 import s from "./../Common/FormsControls/formControl.module.css"
 
-let LoginForm = props => {
-    // const {handleSubmit} = props;
+let LoginForm = ({handleSubmit,error}) => {
+
     return (
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <div><Field validate={[required]} name="email" component={Input} placeholder={"Email"}/></div>
             <div><Field validate={[required]} name="password" component={Input} placeholder={"Password"} type={"password"}/></div>
             <div><Field name="rememberMe" component="input" type={"checkbox"}/>remember me</div>
-            {props.error && <div className={s.formSummaryError}>{props.error}</div>}
+            {error && <div className={s.formSummaryError}>{error}</div>}
             <div>
                 <button>Submit</button>
             </div>
@@ -37,7 +37,6 @@ const Login = (props) => {
         <h1>Login</h1>
         <LoginForm onSubmit={onSubmit} />
     </div>
-
 };
 
 const mapStateToProps = (state) =>({

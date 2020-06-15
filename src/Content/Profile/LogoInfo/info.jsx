@@ -1,14 +1,16 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import s from './info_logo.module.css'
 import EditProfileInfoForm from "./EditProfileInfoForm";
 
 const InfoProfile = (props) => {
 
 
-    const [editMode,setEditMode] = useState(false)
+    const [editMode,setEditMode] = useState(false);
 
     const onSubmit = (formData) => {
-        props.saveProfile(formData)
+        props.saveProfile(formData).then(()=>{
+            setEditMode(false)
+        });
     };
 
     return (
